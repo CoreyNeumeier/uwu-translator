@@ -1,0 +1,10 @@
+def translate(phrase):
+  translation = ""
+  for letter in phrase:
+    if letter.lower() in "l" :
+      translation = translation + "w"
+    else:
+      translation = translation + letter
+  print()
+  return translation + (" uwu")
+print(translate(input("Enter a phrase: ")))
